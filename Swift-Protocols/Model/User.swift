@@ -13,9 +13,3 @@ struct User: Identifiable {
     let name: String
     let email: String
 }
-
-// Protocol defining UserViewModel behavior
-protocol UserViewModelProtocol: ObservableObject {
-    var users: [User] { get }
-    func fetchUsers()
-}
