@@ -15,7 +15,7 @@ protocol UserServiceProtocol {
 // Service responsible for providing user data
 class UserService: UserServiceProtocol {
     func getUsers() -> [User] {
-        return [User(id: 1, name: "Hamza Khalid", email: "hamza@example.com"),
-                User(id: 2, name: "Ahsan Khalid", email: "ahsan@example.com")]
+        return [User(id: 1, name: "Hamza Khalid One", email: "hamza1@example.com"),
+                User(id: 2, name: "Hamza Khalid Two", email: "hamza2@example.com")]
     }
 }
